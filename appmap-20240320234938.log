@@ -1,0 +1,48 @@
+23:49:38.614 [main] INFO Agent.premain: To disable the automatic creation of this log file, set the system property appmap.disableLogFile to 'true'
+23:49:38.615 [main] INFO Agent.premain: Agent version 1.26.4, current time mills: 1710958778178
+23:49:38.615 [main] INFO Agent.premain: config: {
+	"configFile":"C:\\Spring Modules\\Spring_Orm\\appmap.yml",
+	"name":"Spring_Orm",
+	"packages":[{
+		"allMethods":true,
+		"exclude":[],
+		"path":"com.spring.Dao",
+		"shallow":false
+	},{
+		"allMethods":true,
+		"exclude":[],
+		"path":"com.spring.JavaConfig",
+		"shallow":false
+	},{
+		"allMethods":true,
+		"exclude":[],
+		"path":"com.spring.orm",
+		"shallow":false
+	},{
+		"allMethods":true,
+		"exclude":[],
+		"path":"com.spring.Tables",
+		"shallow":false
+	}]
+}
+23:49:38.692 [main] INFO Agent.premain: System properties: {java.specification.version=19, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\91637\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar;C:\Users\91637\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\junit\lib\junit5-rt.jar;C:\Users\91637\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\junit\lib\junit-rt.jar;C:\Spring Modules\Spring_Orm\target\test-classes;C:\Spring Modules\Spring_Orm\target\classes;C:\Users\91637\.m2\repository\org\springframework\spring-orm\5.3.10\spring-orm-5.3.10.jar;C:\Users\91637\.m2\repository\org\springframework\spring-beans\5.3.10\spring-beans-5.3.10.jar;C:\Users\91637\.m2\repository\org\springframework\spring-jdbc\5.3.10\spring-jdbc-5.3.10.jar;C:\Users\91637\.m2\repository\org\springframework\spring-tx\5.3.10\spring-tx-5.3.10.jar;C:\Users\91637\.m2\repository\org\springframework\spring-context\5.3.10\spring-context-5.3.10.jar;C:\Users\91637\.m2\repository\org\springframework\spring-aop\5.3.10\spring-aop-5.3.10.jar;C:\Users\91637\.m2\repository\org\springframework\spring-expression\5.3.10\spring-expression-5.3.10.jar;C:\Users\91637\.m2\repository\org\springframework\spring-core\5.3.10\spring-core-5.3.10.jar;C:\Users\91637\.m2\repository\org\springframework\spring-jcl\5.3.10\spring-jcl-5.3.10.jar;C:\Users\91637\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\91637\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\91637\.m2\repository\org\hibernate\hibernate-core\5.5.7.Final\hibernate-core-5.5.7.Final.jar;C:\Users\91637\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\91637\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\91637\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\91637\.m2\repository\net\bytebuddy\byte-buddy\1.11.12\byte-buddy-1.11.12.jar;C:\Users\91637\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\91637\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\91637\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\91637\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\91637\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\91637\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\91637\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\91637\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\91637\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\91637\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\91637\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\91637\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\91637\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\91637\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\91637\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\91637\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Asia/Calcutta, java.vm.specification.version=19, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=IN, sun.boot.library.path=C:\Program Files\Java\jdk-19\bin, sun.java.command=com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit4 com.spring.orm.App,addCourse, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\91637, user.language=en, sun.stderr.encoding=UTF-8, java.specification.vendor=Oracle Corporation, java.version.date=2023-01-17, java.home=C:\Program Files\Java\jdk-19, file.separator=\, java.vm.compressedOopsMode=Zero based, sun.stdout.encoding=UTF-8, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, appmap.config.file=C:\Spring Modules\Spring_Orm\appmap.yml, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=19.0.2+7-44, user.name=91637, stdout.encoding=UTF-8, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\91637\AppData\Local\Temp\, java.version=19.0.2, user.dir=C:\Spring Modules\Spring_Orm, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\91637\AppData\Local\Microsoft\WindowsApps;;C:\Users\91637\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\91637\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\Users\91637\AppData\Roaming\npm;C:\Users\91637\AppData\Local\Programs\mongosh\;., java.vm.info=mixed mode, sharing, stderr.encoding=UTF-8, java.vendor=Oracle Corporation, java.vm.version=19.0.2+7-44, sun.io.unicode.encoding=UnicodeLittle, java.class.version=63.0}
+23:49:44.498 [main] INFO Recording.moveTo: Saving AppMap C:\Spring Modules\Spring_Orm\tmp\appmap\junit\com_spring_orm_App_addCourse.appmap.json
+23:49:44.506 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: +++ method call +++
+23:49:44.506 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: classes examined: 6550
+23:49:44.506 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: classes ignored: 4076
+23:49:44.507 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: methods examined: 41142
+23:49:44.507 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: methods instrumented: 16
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: === method call ===
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: +++ system hook +++
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: classes examined: 5539
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: classes ignored: 3954
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: methods examined: 40019
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: methods instrumented: 31
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: === system hook ===
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: +++ proxy hooks +++
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: classes examined: 0
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: classes ignored: 0
+23:49:44.508 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: methods examined: 0
+23:49:44.509 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: methods instrumented: 0
+23:49:44.509 [Thread-0] INFO ClassFileTransformer.lambda$logStatistics$14: === proxy hooks ===

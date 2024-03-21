@@ -1,0 +1,7 @@
+name: "Spring_Orm"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.spring.Dao"
+- path: "com.spring.JavaConfig"
+- path: "com.spring.orm"
+- path: "com.spring.Tables"

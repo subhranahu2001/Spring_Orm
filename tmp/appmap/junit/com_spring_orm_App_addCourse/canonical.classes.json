@@ -1,0 +1,7 @@
+[
+  "com/spring/Dao/StudentDaoImpl",
+  "com/spring/JavaConfig/Config",
+  "com/spring/Tables/Courses",
+  "com/spring/Tables/Courses$CoursesBuilder",
+  "com/spring/orm/App"
+]
